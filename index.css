@@ -3,9 +3,11 @@ html {
     font-family: Roboto Mono, monospace;
 }
 
-nav a {
+nav button {
     color: white;
-    text-decoration: none;
+    border-style: none;
+    border-radius: 25%;
+    padding: 15px;
 }
 
 nav :first-child {
@@ -24,7 +26,7 @@ h1 {
     font-family: 'Chelsea Market', cursive;
 }
 
-.whiteText {
+main p {
     color: white;
     background-color: #DDB9A3;
 }
@@ -35,4 +37,10 @@ footer {
 
 span {
     font-weight: bold;
+}
+
+header img {
+    border-radius: 50%;
+    width: 25%;
+    margin: 50px;
 }
