@@ -1,0 +1,11 @@
+header nav :first-child {
+    background-color: #FF764E;
+}
+
+header nav :nth-child(2) {
+    background-color: #5ED3EB;
+}
+
+header nav :nth-child(3) {
+    background-color: #FFCD69;
+}
